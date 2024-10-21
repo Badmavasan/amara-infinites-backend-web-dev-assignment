@@ -4,6 +4,8 @@ This is a Node.js API built with Express.js and MongoDB, allowing users to regis
 
 ### Author : Badmavasan KIROUCHENASSAMY 
 
+**/!\ .env file added (forbidden practice but added for you to have an idea of the format and to know what must be replaced)**
+
 ### Features
 - User registration with pet details.
 - Email verification for account activation.
