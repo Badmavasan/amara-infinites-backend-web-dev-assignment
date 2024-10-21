@@ -1,4 +1,4 @@
-## Pet Management API with User Registration, Email Verification, and JWT Authentication
+## Pet Management API with User Registration, Email Verification, and JWT Authentication (Azure Deployment)
 
 This is a Node.js API built with Express.js and MongoDB, allowing users to register, log in, and manage pet details. It includes email verification during registration and uses JWT for user authentication upon login. The API leverages Mailtrap as a fake SMTP server for testing email functionality.
 
