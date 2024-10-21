@@ -3,7 +3,8 @@ require('dotenv').config();
 
 const sendVerificationEmail = (userEmail, token) => {
     const transporter = nodemailer.createTransport({
-        service: 'Gmail',
+        host: process.env.EMAIL_HOST,
+        port: process.env.EMAIL_HOST_PORT,
         auth: {
             user: process.env.EMAIL_USER,
             pass: process.env.EMAIL_PASS
