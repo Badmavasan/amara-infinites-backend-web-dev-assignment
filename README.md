@@ -188,10 +188,7 @@ Authorization: Bearer <your-jwt-token>
 
 ### Possible Improvements
 
-- CI/CD Pipelines: You can implement continuous integration and continuous deployment (CI/CD) pipelines to automatically test and deploy the application after every push. Tools like Playwright or Cypress can be used to write end-to-end tests that could run during the CI phase.
 - Automated Tests: While no tests are currently implemented, adding automated tests using Playwright or Cypress for end-to-end testing is possible.
-- Containerization: If you want to containerize the application, you can create Docker images for it, and deploy the application in a Kubernetes cluster or other cloud-based environments for better scalability.
-
 ### Running Locally with Mailtrap and MongoDB
 
 When you clone and run the app locally using npm start, it will by default use the Mailtrap account and MongoDB configuration defined in the .env file. You can change these to your own Mailtrap and MongoDB credentials if needed.
