@@ -1,7 +1,9 @@
 const express = require('express');
-const connectDB = require('./config/db');
-const authRoutes = require('./routes/auth');
+const path = require('path');
+const connectDB = require(path.resolve(__dirname, 'config/db'));
+const authRoutes = require(path.resolve(__dirname, 'routes/auth'));
 require('dotenv').config();
+require('module-alias/register');
 
 const app = express();
 connectDB();

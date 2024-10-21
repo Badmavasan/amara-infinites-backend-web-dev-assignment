@@ -1,10 +1,11 @@
 const express = require('express');
 const router = express.Router();
-const User = require('../models/User');
+const path = require('path');
+const User = require(path.resolve(__dirname, '../models/User'));
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const crypto = require('crypto');
-const sendVerificationEmail = require('../config/emailVerification');
+const sendVerificationEmail =  require(path.resolve(__dirname, '../config/emailVerification'));
 const validator = require('validator');
 require('dotenv').config();
 
